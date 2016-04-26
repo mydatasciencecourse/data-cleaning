@@ -50,3 +50,11 @@ Trailing numbers are removed from variable names. Each variable is renamed to re
 ## Data target
 
 Cleaned up data set is written to a file called "tidy.txt". The file contains a header for each variable.
+
+The target data contains the following columns:
+
+|Variable|Description|Range (opt.)|
+|---|---|---|
+|subject|The id of the subject.|1-30|
+|activity|One of 6 activities, which the subjects were performing during measurement of the original data.|WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
+|meanOf<original variable name>|Activity & subject wise means of the original data||
